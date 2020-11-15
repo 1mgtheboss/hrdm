@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>HRDM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>HRDM</h1>
+      <h3>
+        Human Resource Diversity Monitor
+      </h3>
+      Please enter your diversity goal below:<br /><br />
+      We want to have <input type="text" id="percent" /> %
+      <select id="diversity">
+        <option value="M">male</option>
+        <option value="F">female</option>
+        <option value="White">white</option>
+        <option value="Black or African American" selected
+          >black or african american</option
+        >
+        <option value="Two or more races">two or more races</option>
+        <option value="Asian">asian</option>
+        <option value="American Indian or Alaska Native"
+          >american indian or alaska native</option
+        >
+        <option value="Hispanic">hispanic</option>
+      </select>
+      employees in the workforce.
+      <br />
+      <br />
+      <button type="button" id="get-insight">Get insight</button>
+      <br />
+      <br />
+      <div id="result"></div>
+      <br />
+      <br />
+      <div id="information"></div>
+    </div>
+  </body>
+</html>

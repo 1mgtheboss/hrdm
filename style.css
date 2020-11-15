@@ -1,0 +1,13 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 2em;
+}
+
+h1 {
+}
+div#container {
+  width: 30vw;
+  margin: auto;
+}
